@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace CodingChallenges.ChallengeClasses
 {
     // challenge link https://www.codewars.com/kata/546e2562b03326a88e000020/train/csharp
