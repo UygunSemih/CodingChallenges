@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodingChallenges.ChallengeClasses._7KYU
+﻿namespace CodingChallenges.ChallengeClasses._7KYU
 {
     // challenge link https://www.codewars.com/kata/56747fd5cb988479af000028/train/csharp
     public class MiddleCharacter

@@ -14,6 +14,5 @@
         {
             return s.Split(' ').Min(x => x.Length);
         }
-
     }
 }
