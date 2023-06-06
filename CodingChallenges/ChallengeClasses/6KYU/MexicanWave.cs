@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodingChallenges.ChallengeClasses._6KYU
+﻿namespace CodingChallenges.ChallengeClasses._6KYU
 {
     // challenge link https://www.codewars.com/kata/58f5c63f1e26ecda7e000029/train/csharp
     public class MexicanWave

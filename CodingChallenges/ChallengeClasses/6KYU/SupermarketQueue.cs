@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodingChallenges.ChallengeClasses._6KYU
+﻿namespace CodingChallenges.ChallengeClasses._6KYU
 {
     // challenge link https://www.codewars.com/kata/57b06f90e298a7b53d000a86/train/csharp
     public class SupermarketQueue
