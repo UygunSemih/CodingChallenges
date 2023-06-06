@@ -10,7 +10,7 @@
         }
 
         // solution voted as best practice
-        public static string CreatePhoneNumber(int[] numbers)
+        public static string CreatePhoneNumberBestPractice(int[] numbers)
         {
             return long.Parse(string.Concat(numbers)).ToString("(000) 000-0000");
         }
