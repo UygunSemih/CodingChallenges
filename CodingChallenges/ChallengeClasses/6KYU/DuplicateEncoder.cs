@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 
 namespace CodingChallenges.ChallengeClasses._6KYU
 {
@@ -30,6 +27,5 @@ namespace CodingChallenges.ChallengeClasses._6KYU
         {
             return new string(word.ToLower().Select(ch => word.ToLower().Count(innerCh => ch == innerCh) == 1 ? '(' : ')').ToArray());
         }
-
     }
 }
