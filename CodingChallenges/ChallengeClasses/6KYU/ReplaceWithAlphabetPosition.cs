@@ -23,7 +23,7 @@ namespace CodingChallenges.ChallengeClasses._6KYU
         }
 
         // solution voted as best practice
-        public static string AlphabetPosition(string text)
+        public static string AlphabetPositionBestPractice(string text)
         {
             return string.Join(" ", text.ToLower().Where(char.IsLetter).Select(x => x - 'a' + 1));
         }
