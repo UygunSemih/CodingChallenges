@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CodingChallenges.ChallengeClasses
+namespace CodingChallenges.ChallengeClasses._7KU
 {
     // challenge link https://www.codewars.com/kata/546e2562b03326a88e000020/train/csharp
     // challenge rank: 7KYU
