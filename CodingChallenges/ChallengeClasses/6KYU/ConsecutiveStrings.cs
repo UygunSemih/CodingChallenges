@@ -24,6 +24,29 @@
 
 
         // solution voted as best practice
+        public static string LongestConsecBestPractice(string[] strarr, int k)
+        {
+            if (k > strarr.Length || strarr.Length == 0 || k <= 0)
+            {
+                return string.Empty;
+            }
 
+            var currentStr = string.Empty;
+            for (var i = 0; i < strarr.Length; i++)
+            {
+                var str = string.Empty;
+                for (var j = i; j < k + i && j < strarr.Length; j++)
+                {
+                    str += strarr[j];
+                }
+
+                if (currentStr.Length < str.Length)
+                {
+                    currentStr = str;
+                }
+            }
+
+            return currentStr;
+        }
     }
 }
