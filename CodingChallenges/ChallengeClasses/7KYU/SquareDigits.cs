@@ -1,5 +1,4 @@
-﻿
-namespace CodingChallenges.ChallengeClasses._7KYU
+﻿namespace CodingChallenges.ChallengeClasses._7KYU
 {
     // challenge link https://www.codewars.com/kata/546e2562b03326a88e000020/train/csharp
     public class SquareDigits
