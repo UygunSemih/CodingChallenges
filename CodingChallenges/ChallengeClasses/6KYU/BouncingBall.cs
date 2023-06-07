@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodingChallenges.ChallengeClasses._6KYU
+﻿namespace CodingChallenges.ChallengeClasses._6KYU
 {
     // challenge link https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/csharp
     public class BouncingBall
