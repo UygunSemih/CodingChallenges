@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace CodingChallenges.ChallengeClasses._5KYU
+﻿namespace CodingChallenges.ChallengeClasses._5KYU
 {
     // challenge link https://www.codewars.com/kata/550f22f4d758534c1100025a/train/csharp
     public class DirectionsReduction
