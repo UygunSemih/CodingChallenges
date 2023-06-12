@@ -4,6 +4,6 @@ using CodingChallenges.ChallengeClasses._6KYU;
 using CodingChallenges.ChallengeClasses._7KYU;
 using System.Numerics;
 
-var test = SumStringsAsNumbers.sumStringsWithoutBigInt("800", "9567");
+var test = HumanReadableTime.GetReadableTime(8274);
 Console.WriteLine(test);
 Console.ReadLine();
