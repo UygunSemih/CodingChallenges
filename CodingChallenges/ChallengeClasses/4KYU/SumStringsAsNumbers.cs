@@ -8,15 +8,49 @@ namespace CodingChallenges.ChallengeClasses._4KYU
         // my solution
         public static string sumStrings(string a, string b)
         {
+            var a1 = BigInteger.Zero;
+            var b1 = BigInteger.Zero;
+            BigInteger.TryParse(a, out a1);
+            BigInteger.TryParse(b, out b1);
+            return (a1+b1).ToString();
+        }
 
-            return (BigInteger.Parse(a) + BigInteger.Parse(b)).ToString();
+        public static string sumStringsWithoutBigInt(string a, string b)
+        {
+            if (a.Length != b.Length)
+            {
+                if (a.Length > b.Length)
+                    b = b.PadLeft(a.Length, '0');
+                else
+                    a = a.PadLeft(b.Length, '0');
+            }
+            string result = string.Empty;
+            int rest = 0;
+            for (int i = a.Length - 1; i > -1; i--)
+            {
+                int sum = int.Parse(a[i].ToString()) + int.Parse(b[i].ToString()) + rest;
+                rest = 0;
+                if(sum >= 10)
+                {
+                    rest = 1;
+                    sum -= 10;
+                }
+                result = result.Insert(0,sum.ToString());
+            }
+            return result;
         }
 
 
         // solution voted as best practice
-        public static int GetLastDigitBestPractice(BigInteger n1, BigInteger n2)
+        public static string sumStringsBestPractice(string a, string b)
         {
-            return (int)BigInteger.ModPow(n1, n2, 10);
+            BigInteger aInt;
+            BigInteger bInt;
+
+            BigInteger.TryParse(a, out aInt);
+            BigInteger.TryParse(b, out bInt);
+
+            return (aInt + bInt).ToString();
         }
     }
 }
