@@ -30,14 +30,14 @@ namespace CodingChallenges.ChallengeClasses._4KYU
             {
                 int sum = int.Parse(a[i].ToString()) + int.Parse(b[i].ToString()) + rest;
                 rest = 0;
-                if(sum >= 10)
+                if(sum >= 10 && i - 1 > -1)
                 {
                     rest = 1;
                     sum -= 10;
                 }
                 result = result.Insert(0,sum.ToString());
             }
-            return result;
+            return result.TrimStart('0');
         }
 
 
